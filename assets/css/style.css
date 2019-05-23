@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-image {
+    background: url('images/heroPage.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
+
+.navbar.toggler:focus {
+    outline: none;
+}
+
+#logo {
+   background-color: #4aaaa5;
+   color: #fff;
+   text-shadow: 1px 1px #000;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.img-profile {
+    shape-outside: circle();
+    clip-path: circle();
+}
+
+.gallery {
+    margin-top: 75px;
+}
+
+footer small {
+    margin-top: 70px;
+    border-top: 5px solid #777;
+    background-color: #4aaaa5;
+
+}
+footer small:a {
+    color: #fff;
+}
