@@ -1,16 +1,20 @@
+/***************************
+    General
+****************************/
 body {
     margin-bottom: 100px;
     padding: 0;
     background-image: url('images/white-waves.png');
 }
 
-.hero-image {
-    background: url('images/heroPage.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
-    min-height: 100%;
-}
 
+
+/***************************
+    Navigation Bar
+****************************/
+.navbar.toggler:focus {
+    outline: none;
+}
 
 #logo {
    background-color: #4aaaa5;
@@ -20,15 +24,39 @@ body {
    letter-spacing: 1px;
 }
 
+/***************************
+    Image profile
+****************************/
 .img-profile {
     shape-outside: circle();
     clip-path: circle();
 }
 
+
+/***************************
+    General
+****************************/
 .gallery {
     margin-top: 75px;
 }
 
+/* The animation code */
+@keyframes example {
+    0% {
+        color: #4aaaa5;
+    }
+    50% {
+        color: #fff;
+    }
+    100% {
+        color: #ff9800;
+    }
+  }
+
+
+/***************************
+    Footer
+****************************/
 footer small {
     margin-top: 100px;
     border-top: 5px solid #777;
@@ -46,31 +74,17 @@ h5 {
 h3 {
     margin-top: 100px;
 }
-/*************************
-    Go top button
-**************************/
-#myBtn {
-    display: none;
-    position: fixed;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 15px;
-    display: block;
-    background-color: #4aaaa5;
-    border-radius: 50%;
-    color: rgb(204, 204, 204);
-    right: 12%;
-    bottom: 120px;
-  }
 
-  #myBtn:hover {
-    background-color: rgb(204, 204, 204);
-    color: #4aaaa5;
-  }
-
+  
+/***************************
+    Landing page
+****************************/
+.hero-image {
+    background: url('images/heroPage.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+}
   .hero-image {
     background-image: linear-gradient(to  bottom right, rgba(52, 151, 151, .4), rgba(151, 151, 151, 0.6 )), url("images/heroPage.jpg");
     min-height: 100vh;
@@ -79,9 +93,7 @@ h3 {
     background-size: cover;
   }
 
-
-
-.hero-text {
+  .hero-text {
     text-align: center;
     position: absolute;
     top: 50%;
@@ -90,33 +102,6 @@ h3 {
     letter-spacing: 1px;
     transform: translate(-50%, -50%);
     color: white;
-  }
-
-  span, h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-size: 4rem;
-  }
-
-  span {
-    text-shadow: 2px 2px 3px #000;
-    animation-name: example;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-  }
-
-
-  /* The animation code */
-@keyframes example {
-    0% {
-        color: #4aaaa5;
-    }
-    50% {
-        color: #fff;
-    }
-    100% {
-        color: #ff9800;
-    }
   }
 
   #homeBtn  {
@@ -145,3 +130,17 @@ h3 {
 .hero-text p {
     color: #fff;
 }
+
+ /* The element to apply the animation to */
+ #author, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-size: 4rem;
+  }
+
+  #author {
+    text-shadow: 2px 2px 3px #000;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
