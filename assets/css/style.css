@@ -171,6 +171,14 @@ h5 {
     font-size: .9rem;
 }
 
+h3.contact {
+    margin-left: 1%;
+}
+
+.contact {
+    margin-left: 5%;
+}
+
 /**********************
   The home page animation code 
  /**********************/
@@ -203,61 +211,7 @@ h5 {
 /*************************
     MEDIA QURRIES
 **************************/
-
-/* Landscap Mode */
-/* @media screen and (max-width: 768) {
-    i {
-        visibility: hidden;
-    }
-    #logo {
-        width: 50%;
-        margin: 0 auto 10px;
-        font-size: 24px;
-        text-align: center;
-        background-color: #fff;
-        color: #4aaaa5;
-        text-shadow: none;
-        border-bottom: 1px solid #ccc;
-    }
-
-    .menu {
-        width: 100%;
-        margin: 15px auto; 
-        float: none;
-        text-align: center; 
-    }
-
-
-    a.active {
-        border-bottom: none;
-    }
-    .image-tabs p {
-        width: 100%;
-        top: 72%;
-    }
-
-    .picture-wrapper .image-tabs, img {
-        width: 100%;
-
-  
-  @media screen and (max-width: 768px) {
-      #logo {
-          margin-left: 0;
-      }
-      .picture-wrapper .image-tabs {
-          width: 48.33%;
-      }
-      .text {
-          width: 89%;
-          top: 78%;
-      }
-
-      .picture-wrapper {
-          margin-left: 50px;
-      }
-  }
-
-
+    
 /* Portrait Mode */
 @media screen and (max-width: 568px) {
     #logo {
